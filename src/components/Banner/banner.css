@@ -1,0 +1,80 @@
+.MainContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.738);
+  display: flex;
+  justify-content: center;
+}
+
+.MainContent .banner {
+  width: 50%;
+  height: 520px;
+  background-color: #dedcdc;
+  color: black;
+  font-size: 16px;
+  margin-top: 100px;
+}
+
+.MainContent .banner .bannerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.MainContent .banner .bannerWrapper .Close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MainContent .banner .bannerWrapper .Close svg {
+  margin: 15px;
+}
+
+.MainContent .banner .bannerWrapper .banner-title {
+  margin: 20px 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.MainContent .banner .bannerWrapper .banner-title .title {
+  width: 95%;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.MainContent .banner .bannerWrapper .banner-description {
+  margin: 20px 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.MainContent .banner .bannerWrapper .banner-description .description {
+  width: 95%;
+  height: 100px;
+  margin: 10px 0;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.MainContent .banner .bannerWrapper .submit {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.MainContent .banner .bannerWrapper .submit button {
+  width: 60%;
+  height: 50px;
+  background-color: #9c9d9c;
+}
+/*# sourceMappingURL=banner.css.map */
